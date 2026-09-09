@@ -1,0 +1,9 @@
+name = "top-hat-and-tails"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-09-01"
+# Use Cloudflare Pages dashboard bindings, OR rename this file to wrangler.toml
+# and replace the database ID below with the ID from your own account.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "top-hat-and-tails-applications"
+# database_id = "REPLACE_WITH_YOUR_DATABASE_ID"
