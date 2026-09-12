@@ -52,5 +52,5 @@ test('OAuth requires matching browser state, private repository and editor write
 });
 test('CMS collections are editable; deployment assets do not include private source files',async()=>{
  const r=await worker.fetch(request('/admin/config.yml'),env);const config=JSON.parse(await r.text());assert.equal(config.backend.name,'github');assert.equal(config.collections.length,5);assert.equal(config.collections.at(-1).files[0].file,'private/members.json');
- const roots=await readdir('dist');assert.ok(!roots.includes('private'));assert.ok(!roots.includes('content'));assert.ok(!roots.includes('members'));assert.match(await readFile('dist/index.html','utf8'),/stage-04.webp/);
+ const roots=await readdir('dist');assert.ok(!roots.includes('private'));assert.ok(!roots.includes('content'));assert.ok(!roots.includes('members'));assert.match(await readFile('dist/index.html','utf8'),/rehearsal.jpg/);
 });

@@ -1,4 +1,12 @@
 (()=>{
+ const hero=document.querySelector('.hero-slides');
+ if(hero){
+  const slides=[...hero.querySelectorAll('.hero-slide')],controls=hero.querySelector('.hero-controls'),play=hero.querySelector('[data-hero-play]'),count=hero.querySelector('[data-hero-count]');
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)');let index=0,playing=!reduced.matches,timer;
+  const show=n=>{index=(n+slides.length)%slides.length;slides.forEach((s,i)=>s.hidden=i!==index);count.textContent=(index+1)+' / '+slides.length;};
+  const schedule=()=>{clearInterval(timer);play.textContent=playing?'Pause slideshow':'Play slideshow';if(playing&&!document.hidden&&!hero.matches(':hover')&&!hero.contains(document.activeElement))timer=setInterval(()=>show(index+1),6500);};
+  if(slides.length>1){controls.hidden=false;hero.querySelector('[data-hero-prev]').onclick=()=>{show(index-1);schedule();};hero.querySelector('[data-hero-next]').onclick=()=>{show(index+1);schedule();};play.onclick=()=>{playing=!playing;schedule();};['mouseenter','mouseleave','focusin'].forEach(e=>hero.addEventListener(e,schedule));hero.addEventListener('focusout',()=>setTimeout(schedule,0));document.addEventListener('visibilitychange',schedule);reduced.addEventListener('change',()=>{playing=!reduced.matches;schedule();});schedule();}
+ }
  const dialog=document.querySelector('#lightbox');
  document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{dialog.querySelector('img').src=button.dataset.photo;dialog.querySelector('img').alt=button.querySelector('img').alt;dialog.querySelector('p').textContent=button.dataset.caption;dialog.showModal();}));
  dialog?.querySelector('button').addEventListener('click',()=>dialog.close());

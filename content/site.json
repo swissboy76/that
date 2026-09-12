@@ -10,5 +10,22 @@
   "joinIntro": "Interested in performing or helping behind the scenes? Tell us a little about yourself and how you would like to get involved.",
   "privacyNotice": "",
   "companyImage": "/uploads/stage-06.webp",
-  "featureImage": "/uploads/stage-13.webp"
+  "featureImage": "/uploads/stage-13.webp",
+  "heroSlides": [
+    {
+      "image": "/uploads/rehearsal.jpg",
+      "alt": "Company members practising a kick line in the rehearsal room",
+      "caption": "In rehearsal · Where the show begins"
+    },
+    {
+      "image": "/uploads/hero-ensemble.jpg",
+      "alt": "An ensemble performing a choreographed umbrella routine",
+      "caption": "On stage · Together in the spotlight"
+    },
+    {
+      "image": "/uploads/hero-scene.jpg",
+      "alt": "Two performers embracing during a scene",
+      "caption": "In character · Stories brought to life"
+    }
+  ]
 }
