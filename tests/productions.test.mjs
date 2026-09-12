@@ -16,9 +16,9 @@ test('ticket sales require a non-archived production, explicit enablement and HT
  assert.equal(isPast({}),true);
  assert.match(productionDetail({title:'<script>',status:'upcoming',description:'<script>'}),/&lt;script&gt;/);
 });
-test('homepage uses original rehearsal-led images and upcoming page exists',async()=>{
+test('homepage has eight full-screen slideshow photos without controls and upcoming page exists',async()=>{
  const html=await readFile('dist/index.html','utf8');
- assert.match(html,/hero-dynamic/);assert.match(html,/rehearsal.jpg/);assert.match(html,/hero-ensemble.jpg/);assert.match(html,/Pause slideshow/);
+ assert.match(html,/hero-dynamic/);assert.equal((html.match(/class="hero-slide(?: is-active)?"/g)||[]).length,8);assert.match(html,/banner-1.jpg/);assert.doesNotMatch(html,/Pause slideshow|data-hero-prev|hero-controls/);
  assert.ok(html.indexOf('/style.css')<html.indexOf('/productions.css'));
  assert.match(await readFile('dist/whats-on/index.html','utf8'),/Current &amp; upcoming productions/);
 });
