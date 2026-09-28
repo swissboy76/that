@@ -31,3 +31,5 @@
 .hero-dynamic .hero-bottom{border-top:0;padding-top:0;display:block}
 .hero-dynamic .hero-bottom .text-link{margin-top:0}
 @media(max-width:700px){.hero-dynamic .hero-tagline{font-size:22px;line-height:1.45;margin-bottom:20px}.hero-dynamic h1{margin-bottom:20px}}
+
+.company-photo img{aspect-ratio:auto;height:auto;object-fit:contain}
