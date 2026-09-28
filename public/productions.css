@@ -65,3 +65,9 @@
 .management-intro{max-width:850px;margin:65px auto 0}
 .management-intro h2,.team-suggestions h2{font-size:clamp(28px,3vw,42px)}
 .team-suggestions{max-width:850px;margin:70px auto 0;padding-top:32px;border-top:1px solid var(--line)}
+
+/* Branded social links, with visible names and keyboard focus. */
+footer .social-links{display:flex;flex-wrap:wrap;align-items:center;gap:16px 28px;margin-bottom:20px}
+footer .social-links a{display:inline-flex;align-items:center;gap:10px;margin:0;padding:8px 0;text-decoration:none;min-height:44px}
+footer .social-links a:hover span:first-of-type{text-decoration:underline;text-underline-offset:5px}
+footer .social-links .social-icon{display:block;flex:0 0 28px;width:28px;height:28px;color:#fff}
