@@ -54,9 +54,10 @@
 @media(max-width:850px){.about-us .team-card{flex-basis:calc((100% - 28px)/2)}}
 @media(max-width:480px){.about-us .team-card{flex-basis:100%}}
 
-/* Display the original Spamalot wordmark from the supplied artwork. */
-.box-office-spamalot-logo{position:relative;overflow:hidden;width:min(100%,440px);aspect-ratio:440/175;margin:20px 0 28px;background:#3959a3}
-.box-office-spamalot-logo img{position:absolute;width:465.4546%;max-width:none;height:auto;left:-180.6818%;top:-231.4286%;display:block}
+.ticket-panel-with-logo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:4vw}
+.ticket-panel .ticket-copy{min-width:0}
+.ticket-panel .box-office-logo{display:block;width:100%;max-width:650px;height:auto;object-fit:contain;justify-self:end}
+@media(max-width:700px){.ticket-panel-with-logo{grid-template-columns:1fr;gap:28px}.ticket-panel .box-office-logo{max-width:480px;justify-self:center}}
 
 /* Compact, centred management portraits at half their previous width and height. */
 .about-us .team-portrait,.about-us .team-placeholder{width:50%;margin-inline:auto}
