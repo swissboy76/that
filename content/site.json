@@ -3,8 +3,8 @@
   "description": "Musical Theatre Company",
   "heroTitle": "Made for the stage.",
   "intro": "The music. The stories. The people who bring them to life. This is Top Hat and Tails.",
-  "heroImage": "/uploads/banner-1.jpg",
-  "heroAlt": "An ensemble dancing with umbrellas on stage",
+  "heroImage": "/uploads/DSC_5617.jpg",
+  "heroAlt": "A performer singing in rehearsal, wearing orange and sunglasses",
   "logo": "/uploads/logo.svg",
   "about": "We are Top Hat and Tails, a musical theatre company. From the rehearsal room to the stage, we bring people together through a shared love of performing.",
   "joinIntro": "Interested in performing or helping behind the scenes? Tell us a little about yourself and how you would like to get involved.",
@@ -13,43 +13,53 @@
   "featureImage": "/uploads/stage-13.webp",
   "heroSlides": [
     {
-      "image": "/uploads/banner-1.jpg",
-      "alt": "An ensemble dancing with umbrellas on stage",
+      "image": "/uploads/DSC_5617.jpg",
+      "alt": "A performer singing in rehearsal, wearing orange and sunglasses",
+      "caption": "In rehearsal"
+    },
+    {
+      "image": "/uploads/hero-umbrellas-enhanced.jpg",
+      "alt": "The ensemble dancing with umbrellas on stage",
       "caption": "On stage"
     },
     {
-      "image": "/uploads/banner-2.jpg",
-      "alt": "Two performers embracing during a scene",
+      "image": "/uploads/DSC_5608.jpg",
+      "alt": "Company members rehearsing choreography together",
+      "caption": "In rehearsal"
+    },
+    {
+      "image": "/uploads/hero-embrace-enhanced.jpg",
+      "alt": "Two performers embracing in a scene",
       "caption": "On stage"
     },
     {
-      "image": "/uploads/banner-3.jpg",
-      "alt": "The cast performing a scene together on stage",
+      "image": "/uploads/hero-rehearsal-ensemble.jpg",
+      "alt": "Company members rehearsing an ensemble scene",
+      "caption": "In rehearsal"
+    },
+    {
+      "image": "/uploads/hero-ensemble-enhanced.jpg",
+      "alt": "The company performing together under stage lights",
       "caption": "On stage"
     },
     {
-      "image": "/uploads/banner-4.jpg",
-      "alt": "A large ensemble performing under stage lights",
+      "image": "/uploads/DSC_5492.jpg",
+      "alt": "A black and white photograph of the company rehearsing a kick line",
+      "caption": "In rehearsal"
+    },
+    {
+      "image": "/uploads/hero-solo-enhanced.jpg",
+      "alt": "A singer performing beside a red stage curtain",
       "caption": "On stage"
     },
     {
-      "image": "/uploads/banner-5.jpg",
-      "alt": "A singer performing beside the red stage curtain",
+      "image": "/uploads/hero-school-scene.jpg",
+      "alt": "Performers in school uniforms during a stage scene",
       "caption": "On stage"
     },
     {
-      "image": "/uploads/banner-6.jpg",
-      "alt": "The company performing across the theatre stage",
-      "caption": "On stage"
-    },
-    {
-      "image": "/uploads/banner-7.jpg",
-      "alt": "Performers dancing behind Union Jack umbrellas",
-      "caption": "On stage"
-    },
-    {
-      "image": "/uploads/banner-8.jpg",
-      "alt": "Four performers sharing a scene in front of theatre curtains",
+      "image": "/uploads/hero-stage-solo.jpg",
+      "alt": "A performer in a dark suit raising one arm on stage",
       "caption": "On stage"
     }
   ]

@@ -17,3 +17,11 @@
 @keyframes ken-burns{from{transform:scale(1.08) translate(-.6%,.4%)}to{transform:scale(1.22) translate(.6%,-.4%)}}
 @media(max-width:700px){.hero.hero-dynamic{min-height:700px}.hero-dynamic .hero-copy{padding:35px 6vw}.hero-dynamic h1{font-size:clamp(56px,12vw,82px)}.hero-dynamic .hero-bottom{display:block}}
 @media(prefers-reduced-motion:reduce){.hero-dynamic .hero-slide{transition:none}.hero-dynamic .hero-slide img{animation:none!important;transform:scale(1.08)}}
+
+/* Subject-aware crops for the selected September photographs. */
+.hero-dynamic .hero-slide img[src$="/DSC_5492.jpg"]{object-position:55% 30%}
+.hero-dynamic .hero-slide img[src$="/DSC_5608.jpg"]{object-position:50% 30%}
+.hero-dynamic .hero-slide img[src$="/DSC_5617.jpg"]{object-position:50% 35%}
+.hero-dynamic .hero-slide img[src$="/hero-school-scene.jpg"]{object-position:50% 30%}
+.hero-dynamic .hero-slide img[src$="/hero-stage-solo.jpg"]{object-position:50% 28%}
+.hero-dynamic .hero-slide img[src$="/hero-embrace-enhanced.jpg"]{object-position:50% 60%}
