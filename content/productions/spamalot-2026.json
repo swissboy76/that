@@ -1,0 +1,22 @@
+{
+  "title": "Monty Python’s Spamalot",
+  "year": 2026,
+  "dates": "5–7 November 2026",
+  "venue": "The Muse Theatre, Lipson Co-operative Academy, Bernice Terrace, Plymouth, PL4 7PG",
+  "description": "Join King Arthur and his wonderfully unlikely Knights of the Round Table on a chaotic quest for the Holy Grail. Inspired by Monty Python and the Holy Grail, Spamalot combines outrageous comedy, musical spectacle and gloriously daft encounters, from taunting French soldiers to the Knights Who Say ‘Ni!’.",
+  "credits": "Director & choreographer: Heather Jenkin\nAssistant choreographer: Beth Emmet\nProducer: Adele Tremeer\nMusical director: Joshua Clarke\n\nBook and lyrics by Eric Idle\nMusic by John Du Prez and Eric Idle",
+  "rights": "\"SPAMALOT\" is presented through special arrangement with and all authorised performance materials are supplied by Theatrical Rights Worldwide (TRW). www.theatricalrights.com",
+  "status": "current",
+  "published": true,
+  "cover": "/uploads/spamalot-2026-poster.jpg",
+  "photos": [
+    {
+      "image": "/uploads/spamalot-2026-banner.jpg",
+      "alt": "Spamalot at The Muse Theatre, 5–7 November 2026: full production and booking poster",
+      "caption": "Join the quest — 5–7 November 2026"
+    }
+  ],
+  "ticketsOnSale": true,
+  "ticketUrl": "https://www.ticketsource.com/tophatandtailsmtc",
+  "ticketInfo": "Join the quest at The Muse Theatre. Choose your performance and book through TicketSource."
+}
