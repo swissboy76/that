@@ -44,3 +44,12 @@
 .team-role{margin:0;color:#efb4bd;font-size:16px;line-height:1.5}
 @media(max-width:850px){.team-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:480px){.team-grid{grid-template-columns:1fr}.team-section{margin-top:45px}.team-card h3{font-size:28px}}
+
+.about-us{text-align:center}
+.about-us .page-heading{margin-inline:auto}
+.about-us .team-banner{margin-inline:auto}
+.about-us .section>p{max-width:850px;margin-inline:auto}
+.about-us .team-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:40px 28px}
+.about-us .team-card{flex:0 0 calc((100% - 56px)/3);text-align:center}
+@media(max-width:850px){.about-us .team-card{flex-basis:calc((100% - 28px)/2)}}
+@media(max-width:480px){.about-us .team-card{flex-basis:100%}}
