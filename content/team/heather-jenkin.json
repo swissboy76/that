@@ -1,9 +1,22 @@
 {
   "name": "Heather Jenkin",
-  "role": "Production Manager",
-  "group": "senior",
-  "order": 5,
+  "role": "Publicity Officer",
+  "order": 3,
   "bio": "",
   "published": true,
-  "image": "/uploads/heather-jenkin.webp"
+  "image": "/uploads/heather-jenkin.webp",
+  "memberships": [
+    {
+      "section": "directors",
+      "role": "Director"
+    },
+    {
+      "section": "executive",
+      "role": "Artistic Advisor & Mediator"
+    },
+    {
+      "section": "general",
+      "role": "Publicity Officer"
+    }
+  ]
 }

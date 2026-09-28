@@ -1,9 +1,14 @@
 {
   "name": "Ruby Martin",
-  "role": "Dance Captain",
-  "group": "committee",
-  "order": 10,
+  "role": "General Committee Member\nResident Dance Coach",
+  "order": 12,
   "bio": "",
   "published": true,
-  "image": "/uploads/ruby-martin.webp"
+  "image": "/uploads/ruby-martin.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "General Committee Member\nResident Dance Coach"
+    }
+  ]
 }

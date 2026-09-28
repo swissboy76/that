@@ -1,9 +1,14 @@
 {
   "name": "Beth Emmett",
-  "role": "Assistant Choreographer",
-  "group": "committee",
-  "order": 9,
+  "role": "General Committee Member",
+  "order": 10,
   "bio": "",
   "published": true,
-  "image": "/uploads/beth-emmett.webp"
+  "image": "/uploads/beth-emmett.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "General Committee Member"
+    }
+  ]
 }

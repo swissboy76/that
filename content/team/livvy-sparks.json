@@ -1,9 +1,18 @@
 {
-  "name": "Livvy Sparks",
-  "role": "Company Secretary",
-  "group": "senior",
-  "order": 3,
+  "name": "Livvy Spark",
+  "role": "Secretary & Producer’s Assistant",
+  "order": 6,
   "bio": "",
   "published": true,
-  "image": "/uploads/livvy-sparks.webp"
+  "image": "/uploads/livvy-sparks.webp",
+  "memberships": [
+    {
+      "section": "executive",
+      "role": "Secretary"
+    },
+    {
+      "section": "general",
+      "role": "Secretary & Producer’s Assistant"
+    }
+  ]
 }

@@ -1,0 +1,14 @@
+{
+  "name": "Ann Lloyd",
+  "role": "Honorary Vice President",
+  "order": 2,
+  "bio": "",
+  "published": true,
+  "image": "/uploads/ann-lloyd.jpg",
+  "memberships": [
+    {
+      "section": "honorary",
+      "role": "Honorary Vice President"
+    }
+  ]
+}

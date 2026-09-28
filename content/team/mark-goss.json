@@ -1,9 +1,14 @@
 {
   "name": "Mark Goss",
-  "role": "Technical Manager / Health and Safety",
-  "group": "committee",
-  "order": 6,
+  "role": "Health & Safety Officer\nAssistant Wellbeing Officer",
+  "order": 8,
   "bio": "",
   "published": true,
-  "image": "/uploads/mark-goss.webp"
+  "image": "/uploads/mark-goss.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "Health & Safety Officer\nAssistant Wellbeing Officer"
+    }
+  ]
 }

@@ -1,9 +1,14 @@
 {
   "name": "Oscar Houghton",
   "role": "Marketing",
-  "group": "committee",
-  "order": 8,
+  "order": 7,
   "bio": "",
   "published": true,
-  "image": "/uploads/oscar-houghton.webp"
+  "image": "/uploads/oscar-houghton.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "Marketing"
+    }
+  ]
 }

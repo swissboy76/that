@@ -1,9 +1,26 @@
 {
   "name": "Adele Tremeer",
-  "role": "Chairman / Producer",
-  "group": "senior",
+  "role": "Chairperson",
   "order": 1,
   "bio": "",
   "published": true,
-  "image": "/uploads/adele-tremeer.webp"
+  "image": "/uploads/adele-tremeer.webp",
+  "memberships": [
+    {
+      "section": "ownership",
+      "role": "Producer / Owner"
+    },
+    {
+      "section": "directors",
+      "role": "Director"
+    },
+    {
+      "section": "executive",
+      "role": "Business Manager & Company Mediator\nWellbeing Officer"
+    },
+    {
+      "section": "general",
+      "role": "Chairperson"
+    }
+  ]
 }

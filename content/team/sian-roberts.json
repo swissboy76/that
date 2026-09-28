@@ -1,9 +1,14 @@
 {
   "name": "Sian Roberts",
-  "role": "Membership",
-  "group": "committee",
-  "order": 7,
+  "role": "New Members Secretary",
+  "order": 9,
   "bio": "",
   "published": true,
-  "image": "/uploads/sian-roberts.webp"
+  "image": "/uploads/sian-roberts.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "New Members Secretary"
+    }
+  ]
 }

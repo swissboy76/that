@@ -1,9 +1,14 @@
 {
   "name": "Lauren Carew",
-  "role": "Props/Costumes Co-ordinator",
-  "group": "committee",
-  "order": 12,
+  "role": "General Committee Member",
+  "order": 11,
   "bio": "",
   "published": true,
-  "image": "/uploads/lauren-carew.webp"
+  "image": "/uploads/lauren-carew.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "General Committee Member"
+    }
+  ]
 }

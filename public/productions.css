@@ -57,3 +57,10 @@
 /* Display the original Spamalot wordmark from the supplied artwork. */
 .box-office-spamalot-logo{position:relative;overflow:hidden;width:min(100%,440px);aspect-ratio:440/175;margin:20px 0 28px;background:#3959a3}
 .box-office-spamalot-logo img{position:absolute;width:465.4546%;max-width:none;height:auto;left:-180.6818%;top:-231.4286%;display:block}
+
+/* Compact, centred management portraits at half their previous width and height. */
+.about-us .team-portrait,.about-us .team-placeholder{width:50%;margin-inline:auto}
+.about-us .team-role{white-space:pre-line}
+.management-intro{max-width:850px;margin:65px auto 0}
+.management-intro h2,.team-suggestions h2{font-size:clamp(28px,3vw,42px)}
+.team-suggestions{max-width:850px;margin:70px auto 0;padding-top:32px;border-top:1px solid var(--line)}

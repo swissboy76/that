@@ -1,9 +1,18 @@
 {
   "name": "Tony Coles",
   "role": "Treasurer",
-  "group": "senior",
-  "order": 4,
+  "order": 5,
   "bio": "",
   "published": true,
-  "image": ""
+  "image": "",
+  "memberships": [
+    {
+      "section": "executive",
+      "role": "Treasurer"
+    },
+    {
+      "section": "general",
+      "role": "Treasurer"
+    }
+  ]
 }

@@ -1,9 +1,14 @@
 {
   "name": "Tammy Roden",
-  "role": "Safeguarding",
-  "group": "committee",
-  "order": 11,
+  "role": "General Committee Member\nSafeguarding",
+  "order": 13,
   "bio": "",
   "published": true,
-  "image": "/uploads/tammy-roden.webp"
+  "image": "/uploads/tammy-roden.webp",
+  "memberships": [
+    {
+      "section": "general",
+      "role": "General Committee Member\nSafeguarding"
+    }
+  ]
 }

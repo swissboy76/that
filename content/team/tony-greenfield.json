@@ -1,9 +1,22 @@
 {
   "name": "Tony Greenfield",
-  "role": "Vice Chairman",
-  "group": "senior",
+  "role": "Vice Chairperson\nTechnical Liaison Officer",
   "order": 2,
   "bio": "",
   "published": true,
-  "image": "/uploads/tony-greenfield.webp"
+  "image": "/uploads/tony-greenfield.webp",
+  "memberships": [
+    {
+      "section": "directors",
+      "role": "Director"
+    },
+    {
+      "section": "executive",
+      "role": "Deputy Business Manager\nTechnical Liaison Officer & Mediator Manager"
+    },
+    {
+      "section": "general",
+      "role": "Vice Chairperson\nTechnical Liaison Officer"
+    }
+  ]
 }

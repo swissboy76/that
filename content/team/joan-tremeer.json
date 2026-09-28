@@ -1,0 +1,14 @@
+{
+  "name": "Joan Tremeer",
+  "role": "Honorary President",
+  "order": 1,
+  "bio": "",
+  "published": true,
+  "image": "/uploads/joan-tremeer.jpg",
+  "memberships": [
+    {
+      "section": "honorary",
+      "role": "Honorary President"
+    }
+  ]
+}
